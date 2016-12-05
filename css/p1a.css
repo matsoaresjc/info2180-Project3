@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+body{
+	font-size:13px;
+	font:Tahoma;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:black;
+	/*object-position:absolute;*/
+}
+
+table{
+	/*object-position:absolute;*/
+	/*size:fixed;*/
+	border-collapse:collapse;
+	min-width:950px;
+}
+
+.width{
+	max-width:20px;
+}
+
+.email:hover{
+	color: #cc6600;
+}
+
+.total_row{
+	display:none;
+}
+
+.header-row{
+	background-color:#687291;
+	color:white;
+	font-weight:bold;
+}
+	
+tr:nth-child(even){
+	/*Styles even table rows for alternating background colours*/
+	background-color:#eeeff2;
+}
+	
+tr:nth-child(odd){
+	/*Styles odd table rows for alternating background colours*/
+	background-color:#dfe1e7;
+}
+
+.total_row{
+	display:none;}
+
+.left{
+	text-align:left;
+	}
+
+th, td{
+	border-top:1px solid white;
+	padding-right:8px;
+	padding-left:8px;
+}
+
+.unit{
+	text-align:center;
+	}
+	
+.wrong{
+	background-color: red;
+}
+
+.valid{
+	background-color: green;
+}
+
+.uread{
+	font-weight: bold;
+}
+
+.read{
+	font-weight: normal;
+}
+	
+
+	
